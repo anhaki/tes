@@ -1,0 +1,178 @@
+body,
+html {
+  margin: 0;
+  overflow-x: hidden;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.navigasi {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 90px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid white;
+  position: fixed;
+  z-index: 999;
+}
+
+.sub-nav {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LabelPT {
+  font-size: 35px;
+}
+
+.but-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 23px;
+}
+
+.sub-but {
+  margin: 0 10px;
+}
+
+.mail-icon {
+  filter: invert();
+  width: 35px;
+  padding-left: 50px;
+  margin-top: 7px;
+}
+/* ================================================================================ */
+.main-img {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  margin-top: 90px;
+  background-image: url("img/hero-image 2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 88vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 10px #000;
+  z-index: 998;
+}
+
+.kuots {
+  margin-left: 40px;
+  font-size: 50px;
+}
+/* =========================================================== */
+.product {
+  background-color: white;
+  height: 88vh;
+  align-items: center;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-right: 50px;
+}
+.sub-product {
+  background-color: black;
+  width: 350px;
+  height: 500px;
+  margin: 78px 0 0 50px;
+  border-radius: 20px;
+  border: 3px solid black;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block;
+  white-space: normal;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.sub-product:hover {
+  scale: 1.04;
+}
+
+.sub-product:hover .progam {
+  filter: brightness(100%);
+}
+
+.progam {
+  transition: 0.6s;
+}
+
+.thumb_subPro1 {
+  background-image: url(img/pro1.jpg);
+  background-size: cover;
+  margin: auto;
+  filter: brightness(50%);
+  height: 350px;
+}
+.thumb_subPro2 {
+  background-image: url(img/pro2.jpg);
+  background-size: cover;
+  margin: auto;
+  filter: brightness(50%);
+  height: 350px;
+}
+.thumb_subPro3 {
+  background-image: url(img/pro3.jpg);
+  background-size: cover;
+  margin: auto;
+  filter: brightness(50%);
+  height: 350px;
+}
+
+.thumb_subPro4 {
+  background-image: url(img/pro4.jpg);
+  background-size: cover;
+  margin: auto;
+  filter: brightness(50%);
+  height: 350px;
+}
+
+.thumb_subPro5 {
+  background-image: url(img/pro5.jpg);
+  background-size: cover;
+  margin: auto;
+  filter: brightness(50%);
+  height: 350px;
+}
+
+.Title-pro {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.capt_pro {
+  margin: 10px 0 0 0;
+  padding: 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* =========================================================== */
+.testimonial-container {
+  background-color: black;
+  height: 88vh;
+}
+
+.sub-test {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+}
